@@ -1,0 +1,34 @@
+name: CI – Retrain Model
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r Membangun_model/requirements.txt
+          pip install mlflow
+
+      - name: Run MLflow Project (re‑train)
+        run: |
+          mlflow run Workflow-CI/MLProject -P n_estimators=120 -P max_depth=6
+
+      - name: Upload MLflow artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mlflow-artifacts
+          path: mlruns/

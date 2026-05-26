@@ -1,0 +1,6 @@
+Docker Hub Image Link:
+https://hub.docker.com/r/dicoding_user/wine-quality-mlproject
+
+To build and push Docker image using MLflow:
+  mlflow models build-docker -m "runs:/<run_id>/model" -n "dicoding_user/wine-quality-mlproject"
+  docker push dicoding_user/wine-quality-mlproject

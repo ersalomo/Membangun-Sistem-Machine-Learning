@@ -1,0 +1,6 @@
+DagsHub Repository Link: https://dagshub.com/dicoding_user/Eksperimen_SML_siswa
+
+To log runs online to DagsHub, run these shell commands before training:
+export MLFLOW_TRACKING_URI="https://dagshub.com/dicoding_user/Eksperimen_SML_siswa.mlflow"
+export MLFLOW_TRACKING_USERNAME="dicoding_user"
+export MLFLOW_TRACKING_PASSWORD="YOUR_DAGSHUB_TOKEN"
