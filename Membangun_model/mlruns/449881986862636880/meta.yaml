@@ -1,0 +1,6 @@
+artifact_location: file:///Users/mac/Developer/ML/Membangun_model/mlruns/449881986862636880
+creation_time: 1779843518283
+experiment_id: '449881986862636880'
+last_update_time: 1779843518283
+lifecycle_stage: active
+name: Wine_Quality_Tuning_Experiment

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mac/Developer/ML/Membangun_model/mlruns/449881986862636880/4b1e072f6fad4a70a20747afbd7ad188/artifacts
+end_time: 1779844412086
+entry_point_name: ''
+experiment_id: '449881986862636880'
+lifecycle_stage: active
+run_id: 4b1e072f6fad4a70a20747afbd7ad188
+run_name: RandomForest_GridSearchCV_Manual
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844407121
+status: 3
+tags: []
+user_id: mac

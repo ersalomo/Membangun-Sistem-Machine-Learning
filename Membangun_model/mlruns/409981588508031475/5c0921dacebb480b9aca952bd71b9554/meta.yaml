@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mac/Developer/ML/Membangun_model/mlruns/409981588508031475/5c0921dacebb480b9aca952bd71b9554/artifacts
+end_time: 1779844378596
+entry_point_name: ''
+experiment_id: '409981588508031475'
+lifecycle_stage: active
+run_id: 5c0921dacebb480b9aca952bd71b9554
+run_name: RandomForest_Autolog
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844369329
+status: 3
+tags: []
+user_id: mac

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mac/Developer/ML/mlruns/0/bd71e9377b4b432b8ef93376f40ac401/artifacts
+end_time: 1779844500730
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd71e9377b4b432b8ef93376f40ac401
+run_name: likeable-cat-933
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844500703
+status: 4
+tags: []
+user_id: mac

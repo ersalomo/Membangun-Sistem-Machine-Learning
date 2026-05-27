@@ -1,6 +1,24 @@
-DagsHub Repository Link: https://dagshub.com/dicoding_user/Eksperimen_SML_siswa
+DagsHub Repository Link:
+https://dagshub.com/ersalomo/Membangun-Sistem-Machine-Learning
 
-To log runs online to DagsHub, run these shell commands before training:
-export MLFLOW_TRACKING_URI="https://dagshub.com/dicoding_user/Eksperimen_SML_siswa.mlflow"
-export MLFLOW_TRACKING_USERNAME="dicoding_user"
-export MLFLOW_TRACKING_PASSWORD="YOUR_DAGSHUB_TOKEN"
+MLflow Tracking URL:
+https://dagshub.com/ersalomo/Membangun-Sistem-Machine-Learning.mlflow
+
+=== Cara Menggunakan (Setup Environment Variables) ===
+
+Jalankan perintah berikut di terminal sebelum melatih model:
+
+  export MLFLOW_TRACKING_URI="https://dagshub.com/ersalomo/Membangun-Sistem-Machine-Learning.mlflow"
+  export MLFLOW_TRACKING_USERNAME="ersalomo"
+  export MLFLOW_TRACKING_PASSWORD="<DAGSHUB_TOKEN>"
+
+Atau di Python:
+  import mlflow
+  import os
+  os.environ['MLFLOW_TRACKING_URI'] = 'https://dagshub.com/ersalomo/Membangun-Sistem-Machine-Learning.mlflow'
+  os.environ['MLFLOW_TRACKING_USERNAME'] = 'ersalomo'
+  os.environ['MLFLOW_TRACKING_PASSWORD'] = '<DAGSHUB_TOKEN>'
+
+=== GitHub Actions Secrets yang Diperlukan ===
+  DAGSHUB_USERNAME = ersalomo
+  DAGSHUB_TOKEN    = <token dari DagsHub Settings > Access Tokens>

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mac/Developer/ML/mlruns/0/d043a155e8e8428cabcc61c8019fabd7/artifacts
+end_time: 1779844555393
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d043a155e8e8428cabcc61c8019fabd7
+run_name: unique-loon-93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844552513
+status: 4
+tags: []
+user_id: mac

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mac/Developer/ML/mlruns/0/728a0b598470451eaa4244c4a46f0258/artifacts
+end_time: 1779844522572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 728a0b598470451eaa4244c4a46f0258
+run_name: angry-cat-263
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844515988
+status: 4
+tags: []
+user_id: mac

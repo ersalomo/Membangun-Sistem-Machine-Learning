@@ -1,0 +1,15 @@
+digest: db1ffceb
+name: dataset
+profile: '{"num_rows": 3, "num_elements": 33}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "fixed_acidity", "required":
+  true}, {"type": "double", "name": "volatile_acidity", "required": true}, {"type":
+  "double", "name": "citric_acid", "required": true}, {"type": "double", "name": "residual_sugar",
+  "required": true}, {"type": "double", "name": "chlorides", "required": true}, {"type":
+  "double", "name": "free_sulfur_dioxide", "required": true}, {"type": "double", "name":
+  "total_sulfur_dioxide", "required": true}, {"type": "double", "name": "density",
+  "required": true}, {"type": "double", "name": "pH", "required": true}, {"type":
+  "double", "name": "sulphates", "required": true}, {"type": "double", "name": "alcohol",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "mac", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "6ee75c0a95fd1366a762f05d3a888baffce65330"}}'
+source_type: code

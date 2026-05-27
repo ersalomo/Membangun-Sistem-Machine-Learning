@@ -1,0 +1,10 @@
+artifact_location: file:///Users/mac/Developer/ML/Membangun_model/mlruns/449881986862636880/models/m-aaaf6554224e4711990e60dad2fd7857/artifacts
+creation_timestamp: 1779844408101
+experiment_id: '449881986862636880'
+last_updated_timestamp: 1779844412040
+model_id: m-aaaf6554224e4711990e60dad2fd7857
+model_type: null
+name: model
+source_run_id: 4b1e072f6fad4a70a20747afbd7ad188
+status: 2
+status_message: null
