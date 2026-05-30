@@ -29,7 +29,7 @@ Membangun-Sistem-Machine-Learning/
 │   ├── model.joblib                   # Model terlatih (untuk serving)
 │   ├── DagsHub.txt                    # Link DagsHub MLflow Tracking
 │   ├── requirements.txt               # Dependensi Python
-│   └── screenshoot_*.jpg              # Bukti MLflow experiments
+│   └── screenshoot_*.png              # Bukti MLflow experiments
 │
 ├── 📂 Workflow-CI/                    # Kriteria 3: CI/CD dengan MLflow Projects
 │   ├── .github/workflows/

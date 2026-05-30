@@ -21,4 +21,4 @@ Atau di Python:
 
 === GitHub Actions Secrets yang Diperlukan ===
   DAGSHUB_USERNAME = ersalomo
-  DAGSHUB_TOKEN    = <token dari DagsHub Settings > Access Tokens>
+  DAGSHUB_TOKEN    = a6f8be2c29b0858f397009dd2196f0546ce820c1

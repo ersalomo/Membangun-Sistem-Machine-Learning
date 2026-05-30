@@ -31,10 +31,12 @@ def train_basic_model():
     mlflow.set_experiment("Wine_Quality_Basic_Experiment")
 
     # 1. Load preprocessed data
-    data_path = "wine_preprocessed.csv"
+    data_path = os.path.join("namadataset_preprocessing", "wine_preprocessed.csv")
     if not os.path.exists(data_path):
-        print(f"Error: Preprocessed data not found at {data_path}")
-        return
+        data_path = "wine_preprocessed.csv"
+        if not os.path.exists(data_path):
+            print("Error: Preprocessed data not found at namadataset_preprocessing/wine_preprocessed.csv or wine_preprocessed.csv")
+            return
 
     df = pd.read_csv(data_path)
     X = df.drop(columns=['quality'])
